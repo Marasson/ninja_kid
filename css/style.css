@@ -1,0 +1,204 @@
+/*!
+ NINJA THEME
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
+body {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/* navbar*/
+
+.navbar-inverse .navbar-brand {
+    font-size: 30px;
+    color: #fff;
+}
+
+.navbar-inverse {
+    background-color: #000 !important;
+    border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ff9800;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #000;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #ff9800;
+}
+
+
+
+
+
+/*SECTIONS*/
+
+#home {
+    background: #1E88E5;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    height: 1000px;
+}
+
+.jumbotron {
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: hotpink;
+}
+
+#history {
+    padding-top: 150px;
+    height: 1000px;
+    color: #fff;
+    background-color: #ff9800;
+    width: 100%;
+    position: relative;
+}
+
+#history p {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+.scroll {
+    background-image: url(../img/scroll2.png);
+    background-repeat: no-repeat;
+    /*background-size:100% auto;*/
+    height: auto;
+    width: 100%;
+    padding: 120px;
+    text-align: right;
+    color: #1E88E5;
+}
+
+#equipment {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: #fff;
+    background-color: #673ab7;
+    line-height: 2;
+    min-height: 1150px;
+    width: 100%;
+    position: relative;
+}
+
+#equipment p {
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.equipment-one {
+    height: 300px;
+    padding: 10px;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    background-color: #ff9800;
+}
+
+.equipment-alt {
+    height: 300px;
+    padding: 10px;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    background-color: #ff0000;
+}
+
+#kills {
+    padding-top: 150px;
+    height: 100%;
+    color: #fff;
+    background-color: #009688;
+    min-height: 100vh;
+    max-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.pkills {
+    padding-bottom: 75px;
+    
+}
+
+#run {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: #fff;
+    background-color: #9400d3;
+    line-height: 2;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#contact {
+    padding-top: 75px;
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+    position: relative;
+}
+
+
+/* gogle map style */
+
+#map {
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.info-window {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info-content {
+    color: #999;
+}
+
+
+/* end goole map style */
+
+.footer {
+    font-size: 14px;
+    text-align: right;
+    padding-bottom: 25px;
+}
+
+/* counter*/
+
+.timer  {
+    width:200px; 
+    margin:20px 
+    auto;text-align:center;
+    display:block;
+    font-size:20px
+    
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
